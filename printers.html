@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="printer-style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="body bg-secondary-subtle">
+    <div class="shopnow-bar" style="background-color: #2874f0">
+      <nav class="navbar navbar-expand-lg d-none d-sm-none d-lg-block p-0">
+        <div class="container-fluid p-0" style="height: 56px">
+          <button
+            class="navbar-toggler d-sm-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand ms-5 me-5 fs-6 text-white p-0" href="#"
+            >Shopnow<br />Explore Now
+            <i class="fa-solid fa-square-plus" style="color: wheat"></i
+          ></a>
+          <div class="search-box me-5">
+            <input
+              class="input-search bg-white rounded-0"
+              type="search"
+              placeholder=" Search for Products,Brands and More"
+            />
+            <button class="search-icon bg-white rounded-0">
+              <i class="fa fa-search" style="color: #2874f0"></i>
+            </button>
+          </div>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarSupportedContent"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Shopnow
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <ul class="navbar-nav align-items-center" style="height: 56px">
+              <li class="nav-more ms-5 fs-6">
+                <a class="nav-link active text-white p-0" href="#">More</a>
+              </li>
+              <li class="nav-cart ms-5 fs-6">
+                <a
+                  class="nav-link active d-flex align-items-center text-white p-0"
+                  href="#"
+                  ><i class="fa-solid fa-cart-arrow-down me-1 text-white"></i
+                  >Cart</a
+                >
+              </li>
+              <li class="nav-login dropdown ms-5 fs-6">
+                <a
+                  class="nav-link dropdown-toggle text-white p-0"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><i
+                    class="fa-regular fa-user text-white"
+                    style="color: #1f1e1e"
+                  ></i>
+                  Login
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fa-regular fa-user me-2" style="color: #1f1e1e"></i
+                      >My Profile</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fa-solid fa-square-plus me-2"></i>Shop Plus Zone</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fa-regular fa-heart me-2" style="color: #111212"></i
+                      >Wishlist</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                    ><i class="fa-solid fa-gift me-2" style="color: #161717"></i
+                      >Rewards</a
+                      >
+                    </li>
+                </ul>
+              </li>
+              <li class="nav-login ms-5 fs-6">
+                <a class="nav-link active p-0" href="#"
+                  ><i class="fa-solid fa-ellipsis-vertical text-white"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid p-0">
+        <div class="printers-small-view p-2 border-bottom">
+          <span class="arrow d-lg-none ms-3" id="backarrow"
+            ><i class="fa-solid fa-arrow-left fa-sm" style="color: #0a0a0a"></i
+          ></span>
+
+          <span class="arrow d-lg-none ms-3"
+            ><img src="/images/shoplogo.webp " style="width: 25px"
+          /></span>
+          <span
+            class="arrow d-lg-none ms-3"
+            data-bs-toggle="collapse"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="arrow">Printers</span>
+          </span>
+          <span class="search-icon d-lg-none ms-4"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></span>
+          <span class="cart-icon d-lg-none ms-4"
+            ><i class="fa-solid fa-cart-arrow-down"></i
+          ></span>
+          <span class="search-icon d-lg-none ms-3">Login</span>
+        </div>
+        <div class="collapse navbar-collapse" id="SupportedContent">
+          <div class="nav">
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Electronics
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item fw-bold" href="#">Mobiles</a></li>
+                <li><a class="dropdown-item" href="#">Mi</a></li>
+                <li><a class="dropdown-item" href="#">Realme</a></li>
+                <li><a class="dropdown-item" href="#">Samsung</a></li>
+                <li><a class="dropdown-item" href="#">OPPO</a></li>
+                <li><a class="dropdown-item" href="#">Apple</a></li>
+                <li><a class="dropdown-item" href="#">Vivo</a></li>
+                <li><a class="dropdown-item" href="#">Honor</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tv&Appliances
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="#">Television</a></li>
+                <li><a class="dropdown-item" href="#">Washing Machine</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Kitchen Appliances</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Small Home Appliances</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Buying Guides</a></li>
+                <li><a class="dropdown-item" href="#">Refrigerator</a></li>
+                <li><a class="dropdown-item" href="#">Top Brands</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Healthy Living Appliances</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Men
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="#">Foot Wear</a></li>
+                <li><a class="dropdown-item" href="#">Clothing</a></li>
+                <li><a class="dropdown-item" href="#">Winter Wear</a></li>
+                <li><a class="dropdown-item" href="#">Watches</a></li>
+                <li><a class="dropdown-item" href="#">Ethnic Wear</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+                <li><a class="dropdown-item" href="#">Bottom Wear</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">InnerWear & LoungeWear</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Women
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li>
+                  <a class="dropdown-item" href="#">Swim & BeachWear</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                <li><a class="dropdown-item" href="#">Cosmetics</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Beauty & Gromming</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+                <li><a class="dropdown-item" href="#">Sports Wear</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Watches</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Baby & Kids
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="#">Kid's Clothing</a></li>
+                <li><a class="dropdown-item" href="#">Boy's Clothing</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"> Kid's Winter Wear</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Baby Care</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">School Supplies </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Boy's Winter Wear</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Girl's Winter Wear</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Infant FootWear</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home & Furniture
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="#">Furnishing</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Smart Home Automation </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pet Supplies</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen Storage</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Hone Imprpovement</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Festive Decor & Gifts</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Perfect Home Store</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Living Room Furniture</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products dropdown-toggle ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sports,Books & More
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="#">Sports</a></li>
+                <li><a class="dropdown-item" href="#">Books</a></li>
+                <li><a class="dropdown-item" href="#">Music</a></li>
+                <li><a class="dropdown-item" href="#">Gaming</a></li>
+                <li><a class="dropdown-item" href="#">Stationery</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Health & Nutrition</a>
+                </li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Medical Supplies</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products ms-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Flight
+              </a>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products ms-4"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Offer Zone
+              </a>
+            </li>
+            <li class="nav-item dropdown m-0">
+              <a
+                class="nav-products ms-4"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Grocery
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="printers-varities">
+      <div class="container-fluid p-0">
+        <div class="printers-categories d-none d-sm-none d-lg-block">
+          <div class="hp-printers d-flex">
+            <div class="printer-filter-range">
+              <div class="latest-printer m-2 bg-white">
+                <a
+                  class="printer-link d-flex justify-content-center border-bottom"
+                  href="#"
+                  ><img
+                    class="latest-printer-img w-75"
+                    src="/images/latest-printer.jpg "
+                /></a>
+                <p
+                  class="latest-printer-para m-2 fw-medium fs-6 mt-3"
+                  style="line-height: 19px"
+                >
+                  <a
+                    class="latest-link text-decoration-none text-dark"
+                    href="#"
+                  >
+                    Latest Launched Printers</a
+                  >
+                  <br /><a
+                    class="printer-current-rate text-decoration-none text-dark"
+                    >Sale is Live ₹5,399</a
+                  >
+                </p>
+              </div>
+              <div class="filter bg-white m-2">
+                <p
+                  class="filter-title fw-medium m-0 border-bottom p-2"
+                  style="font-size: 18px"
+                >
+                  Filters
+                </p>
+                <div class="printer-catogeries p-2">
+                  <li
+                    class="categories m-0 fw-medium list-group"
+                    style="font-size: 12px"
+                  >
+                    CATEGORIES
+                  </li>
+                  <a
+                    href="#"
+                    class="printer-types pt-1 pb-1 text-decoration-none"
+                    style="list-style: none; color: grey; font-size: 14px"
+                  >
+                    <i
+                      class="fa-solid fa-angle-left fa-xs me-1"
+                      style="color: grey"
+                    ></i
+                    >Printers & Inks </a
+                  ><br />
+                  <div
+                    class="printers-filter-function"
+                    id="printer-filter-function"
+                  >
+                    <a
+                      href="#"
+                      class="printer-types fw-medium pt-1 pb-1 text-decoration-none text-dark"
+                      style="list-style: none; font-size: 14px"
+                    >
+                      <i
+                        class="fa-solid fa-angle-down fa-xs me-1"
+                        style="color: #080808" id="arrow-left"
+                        onclick="printerArrow()"
+                      ></i
+                      >Printers
+                    </a>
+                    <div class="printers-function hidden"  id="printer-function">
+                      <span class="Multi-printer ms-4" style="font-size: 14px"
+                        >Multi Function Printers</span
+                      ><br />
+                      <span class="Single-Function ms-4" style="font-size: 14px"
+                        >Single Function Printers</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="price-range">
+                  <li
+                    class="categories m-0 fw-medium border-top list-group p-3"
+                    style="font-size: 13px"
+                  >
+                    PRICE
+                    <label for="customRange2" class="form-label"></label>
+                    <input
+                      type="range"
+                      class="form-range"
+                      min="0"
+                      max="10"
+                      id="customRange2"
+                    />
+                    <div class="select-range d-flex justify-content-between">
+                      <select
+                        name="price"
+                        id="price-range"
+                        class="select-price-range"
+                        style="width: 90px"
+                      >
+                        <option value="">Min</option>
+                        <option value="">₹ 250</option>
+                        <option value="">₹ 500</option>
+                        <option value="">₹ 1000</option>
+                        <option value="">₹ 2000</option>
+                        <option value="">₹ 5000</option>
+                        <option value="">₹ 10000</option>
+                        <option value="">₹ 20000</option>
+                        <option value="">₹ 30000</option>
+                        <option value="">₹ 40000</option>
+                        <option value="">₹ 50000</option>
+                        <option value="">₹ 60000</option>
+                      </select>
+                      <span class="to fs-6 text-body-tertiary">to</span>
+                      <select
+                        name="price"
+                        id="price-range"
+                        class="select-price-range"
+                        style="width: 90px"
+                      >
+                        <option value="">₹ 60000+</option>
+                        <option value="">₹ 250</option>
+                        <option value="">₹ 500</option>
+                        <option value="">₹ 1000</option>
+                        <option value="">₹ 2000</option>
+                        <option value="">₹ 5000</option>
+                        <option value="">₹ 10000</option>
+                        <option value="">₹ 20000</option>
+                        <option value="">₹ 30000</option>
+                        <option value="">₹ 40000</option>
+                        <option value="">₹ 50000</option>
+                        <option value="">₹ 60000</option>
+                      </select>
+                    </div>
+                  </li>
+                </div><hr>
+                <div class="brand d-flex justify-content-betwen border-bottom">
+                  <p class="heading-brand ms-3 fw-medium " style="font-size: 14px;">BRAND</p>
+                  <a href="#" class="greater-then ms-auto me-3"> <i class="fa-solid fa-angle-down fa-xs text-body-tertiary" id="arrowup" onclick="brandArrow()"></i> </a>                
+                </div>
+                <div class="ckeckbrands ms-3 hidden" id="checkbrand" style="font-size: 14px;">
+                  <input type="checkbox">
+                  <label for="brand" class="hp ms-2 p-1">HP</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="epson ms-2 p-1">Epson</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="canon ms-2 p-1">Canon</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="brother ms-2 p-1">brother</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="stier ms-2 p-1">STIER</label><br>  
+                  <a href="#" class="more-items text-decoration-none" id="more-brand">11 More</a>
+                  <div class="hidden" id="11-more">
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">T JET</label><br>
+                  <a href="#" id="show-less" class="showless text-decoration-none">Show Less</a>
+                  </div>
+              </div>
+              <div class="brand d-flex justify-content-betwen mt-2">
+                <p class="heading-brand ms-3 fw-medium " style="font-size: 14px;">CUSTOMER RATING</p>
+                <a href="#" class="greater-then ms-auto me-3"> <i class="fa-solid fa-angle-down fa-xs text-body-tertiary"></i> </a>                
+              </div>
+              <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">4★ &above</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">3★ & above</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">2★ & above</label><br>
+                  <input type="checkbox">
+                  <label for="brand" class="tjet ms-2 p-1">1★ & above</label><br>
+              </div>
+            </div>
+            <div class="printers-varities bg-white m-2">
+              <div class="price-ranges">
+                <p class="printers-head mb-0 ms-3">
+                  Printers
+                  <span class="more-products fw-lighter"
+                    >(Showing 1 - 40 products of 307 products)</span
+                  >
+                </p>
+                <a class="range-link ms-3" href="#">Sort By</a>
+                <a class="range-link ms-3" href="#">Popularity</a>
+                <a class="range-link ms-3" href="#">Price -- Low to High</a>
+                <a class="range-link ms-3" href="#">Price -- High to Low</a>
+                <a class="range-link ms-3" href="#">Newest First</a>
+                <div class="printer-card d-grid" style="grid-template-columns:auto auto auto auto;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="hp-printer-varities hp-printer-varities-d-none d-sm-block d-md-none"
+    >
+      <div class="container-fluid p-0">
+        <div class="printers-view bg-white pt-2 pb-2">
+          <div class="printer-img d-flex">
+            <img
+              class="printer mb-5 mt-5 ms-2"
+              src="/images/hp-white.jpg"
+              style="width: 96px"
+              height="50px"
+              alt="printer"
+            />
+            <div class="text m-3" style="width: 15rem">
+              <div class="printer-brands">HP Desk Jet 2723 Multi-</div>
+              <div class="printer-brands m-0">fvunction WiFi Color...</div>
+              <div
+                class="rating-stars m-0 fs-5 text-decoration-none"
+                style="color: #388e3c"
+              >
+                ★★★★<span class="colorless-star text-body-tertiary">★</span
+                ><span
+                  class="printer-price text-body-tertiary"
+                  style="
+                    font-size: 12px;
+                    font-family: Arial, Helvetica, sans-serif;
+                  "
+                  >(28,619)
+                </span>
+              </div>
+              <div
+                class="offer-rate text-decoration-none fw-bold"
+                style="
+                  color: #388e3c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 17px;
+                "
+              >
+                21% Off
+                <span class="delete-price text-body-tertiary ms-1"
+                  ><del>7,005</del></span
+                ><br /><span
+                  class="printer-rate text-dark"
+                  style="font-size: 17px"
+                  >₹5,499</span
+                >
+              </div>
+              <button
+                class="hot-deal text-success border-0 mb-2"
+                style="font-size: 12px; background-color: #e7f8ec"
+              >
+                <span class="hot-deal-text" style="color: #26a541"
+                  >Hot deal</span
+                >
+              </button>
+              <div
+                class="exchange-price text-decoration-none"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                "
+              >
+                Upto ₹400 Off on Exchange<br />FREE delivery
+              </div>
+            </div>
+            <div class="star-rating">
+              <i class="fa-regular fa-heart fa-lg" style="color: #cbcccd"></i>
+            </div>
+          </div>
+        </div>
+        <div class="printers-view bg-white pt-2 pb-2">
+          <div class="printer-img d-flex">
+            <img
+              class="printer mb-5 mt-5 ms-2"
+              src="/images/latest-printer.avif"
+              style="width: 96px"
+              height="50px"
+              alt="printer"
+            />
+            <div class="text m-3" style="width: 15rem">
+              <div class="printer-brands">Canon PIXMA MG2470</div>
+              <div class="printer-brands m-0">All-in-One Inkjet Printer...</div>
+              <div class="printer-brands m-0 text-body-secondary">
+                #JustHere
+              </div>
+              <div
+                class="rating-stars m-0 fs-5 text-decoration-none"
+                style="color: #388e3c"
+              >
+                ★★★★<span class="colorless-star text-body-tertiary">★</span
+                ><span
+                  class="printer-price text-body-tertiary"
+                  style="
+                    font-size: 12px;
+                    font-family: Arial, Helvetica, sans-serif;
+                  "
+                  >(56,328)
+                </span>
+              </div>
+              <div
+                class="offer-rate text-decoration-none fw-bold"
+                style="
+                  color: #388e3c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 17px;
+                "
+              >
+                10% Off
+                <span class="delete-price text-body-tertiary ms-1"
+                  ><del>3,900</del></span
+                ><br /><span
+                  class="printer-rate text-dark"
+                  style="font-size: 17px"
+                  >₹3,498</span
+                >
+              </div>
+              <div
+                class="hot-deal text-success border-0 mb-2"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                "
+              >
+                <span class="hot-deal-text" style="color: #26a541"
+                  >Lowest Price in 15 days</span
+                >
+              </div>
+              <div
+                class="exchange-price text-decoration-none"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                "
+              >
+                Upto ₹400 Off on Exchange<br />FREE delivery
+              </div>
+            </div>
+            <div class="star-rating">
+              <i class="fa-regular fa-heart fa-lg" style="color: #cbcccd"></i>
+            </div>
+          </div>
+        </div>
+        <div class="printers-view bg-white pt-2 pb-2">
+          <div class="printer-img d-flex">
+            <img
+              class="printer mb-5 mt-5 ms-2"
+              src="/images/hp-red.jpg"
+              style="width: 96px"
+              height="50px"
+              alt="printer"
+            />
+            <div class="text m-3" style="width: 15rem">
+              <div class="printer-brands">HP Smart Tank All In</div>
+              <div class="printer-brands m-0">One 589 Multi-function...</div>
+              <div
+                class="rating-stars m-0 fs-5 text-decoration-none"
+                style="color: #388e3c"
+              >
+                ★★★★<span class="colorless-star text-body-tertiary">★</span
+                ><span
+                  class="printer-price text-body-tertiary"
+                  style="
+                    font-size: 12px;
+                    font-family: Arial, Helvetica, sans-serif;
+                  "
+                  >(2,175)
+                </span>
+              </div>
+              <div
+                class="offer-rate text-decoration-none fw-bold"
+                style="
+                  color: #388e3c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 17px;
+                "
+              >
+                22% Off
+                <span class="delete-price text-body-tertiary ms-1"
+                  ><del>13,500</del></span
+                ><br /><span
+                  class="printer-rate text-dark"
+                  style="font-size: 17px"
+                  >₹13,799</span
+                >
+              </div>
+              <div
+                class="hot-deal text-success border-0 mb-2"
+                style="font-size: 12px"
+              >
+                <span class="hot-deal-text" style="color: #26a541"
+                  >Lowest Price in 30 days</span
+                >
+              </div>
+              <div
+                class="exchange-price text-decoration-none"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                "
+              >
+                Upto ₹400 Off on Exchange<br />FREE delivery
+              </div>
+            </div>
+            <div class="star-rating">
+              <i class="fa-regular fa-heart fa-lg" style="color: #cbcccd"></i>
+            </div>
+          </div>
+        </div>
+        <div class="printers-view bg-white pt-2 pb-2">
+          <div class="printer-img d-flex">
+            <img
+              class="printer mb-5 mt-5 ms-2"
+              src="/images/hp-ful-black.jpg"
+              style="width: 96px"
+              height="50px"
+              alt="printer"
+            />
+            <div class="text m-3" style="width: 15rem">
+              <div class="printer-brands">HP Smart Tank 210</div>
+              <div class="printer-brands m-0">Single-Function WiFi...</div>
+              <div
+                class="rating-stars m-0 fs-5 text-decoration-none"
+                style="color: #388e3c"
+              >
+                ★★★★<span class="colorless-star text-body-tertiary">★</span
+                ><span
+                  class="printer-price text-body-tertiary"
+                  style="
+                    font-size: 12px;
+                    font-family: Arial, Helvetica, sans-serif;
+                  "
+                  >(1,002)
+                </span>
+              </div>
+              <div
+                class="offer-rate text-decoration-none fw-bold"
+                style="
+                  color: #388e3c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 17px;
+                "
+              >
+                33% Off
+                <span class="delete-price text-body-tertiary ms-1"
+                  ><del>13,500</del></span
+                ><br /><span
+                  class="printer-rate text-dark"
+                  style="font-size: 17px"
+                  >₹8,999</span
+                >
+              </div>
+              <button
+                class="hot-deal text-success border-0 mb-2"
+                style="font-size: 12px; background-color: #e7f8ec"
+              >
+                <span class="hot-deal-text" style="color: #26a541"
+                  >Hot deal</span
+                >
+              </button>
+              <div
+                class="exchange-price text-decoration-none"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                "
+              >
+                Upto ₹400 Off on Exchange<br />FREE delivery
+              </div>
+            </div>
+            <div class="star-rating">
+              <i class="fa-regular fa-heart fa-lg" style="color: #cbcccd"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="index.js"></script>
+</html>
